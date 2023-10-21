@@ -615,6 +615,19 @@ body {
     column-gap: 4rem;
     column-rule: 1px solid #eee;
     hyphens: auto; }
+  @media (max-width: 75rem) {
+    .popup__content {
+      background-image: linear-gradient(to right bottom, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), url("../img/nat-9.jpg");
+      background-size: cover; }
+    .popup__img {
+      display: none; }
+    .popup__right {
+      width: 100%; }
+    .popup__left {
+      width: 0; } }
+  @media (max-width: 37.5rem) {
+    .popup__text {
+      column-count: 1; } }
 
 .header {
   height: 95vh;
